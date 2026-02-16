@@ -1,0 +1,36 @@
+# Dynatrace AI Assistant - Dependencies
+# Updated with Multi-Provider AI Support
+
+# Core Framework
+streamlit>=1.31.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# ========================================
+# AI PROVIDERS (Install what you need)
+# ========================================
+
+# Google Gemini (FREE - RECOMMENDED)
+# Get API key: https://makersuite.google.com/app/apikey
+google-generativeai>=0.3.0
+
+# Anthropic Claude (Paid)
+# Get API key: https://console.anthropic.com/
+anthropic>=0.18.0
+
+# OpenAI (Paid)
+# Get API key: https://platform.openai.com/api-keys
+openai>=1.12.0
+
+# NOTE: Ollama doesn't need a package - it's a local server
+# Install from: https://ollama.ai
+
+# ========================================
+# Optional: Data Processing & Visualization
+# ========================================
+pandas>=2.0.0
+plotly>=5.18.0
